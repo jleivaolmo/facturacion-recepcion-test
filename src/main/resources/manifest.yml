@@ -1,0 +1,18 @@
+---
+applications:
+- name: ${project.artifactId}
+  routes:
+  - route: ${project.artifactId}-${entorno-despliegue}.${cf.domain}
+  buildpack: sap_java_buildpack
+  stack: cflinuxfs4
+  path: ${project.artifactId}.jar
+  memory: ${instance-memory}
+  timeout: 180
+  env:
+    SPRING_PROFILES_ACTIVE: ${spring-profiles-active}
+  services:
+    - name: destination-service
+    - name: facturacion-connectivity
+    - name: facturacion-xsuaa
+    - name: facturacion-hdi
+    - name: facturacion-logging-service

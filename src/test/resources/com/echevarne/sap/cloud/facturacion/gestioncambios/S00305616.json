@@ -1,0 +1,187 @@
+{
+  "codigoOficinaVentas": "0028",
+  "codigoPeticion": "S00305616",
+  "codigoSistema": "1",
+  "codigoUsuarioExterno": "MCHIMENO",
+  "estados": [],
+  "peticion": [
+    {
+      "alertas": [],
+      "cargoPeticion": "4875",
+      "clinicos": {},
+      "codigoDelegacion": "0028",
+      "codigoIdioma": "ES",
+      "codigoPeticion": "S00305616",
+      "contenedor": [
+        {
+          "cantidadContenedor": 2,
+          "codigoContenedor": "EDTA",
+          "descripcionContenedor": "TUBO EDTA"
+        },
+        {
+          "cantidadContenedor": 1,
+          "codigoContenedor": "TC",
+          "descripcionContenedor": "TUBO CITRATO"
+        },
+        {
+          "cantidadContenedor": 1,
+          "codigoContenedor": "TS",
+          "descripcionContenedor": "TUBO SUERO GEL"
+        }
+      ],
+      "esInmediato": true,
+      "esMuestraRemitida": false,
+      "esPresupuesto": false,
+      "esPrivado": false,
+      "estados": [],
+      "fechas": {
+        "fechaPeticion": "2021-06-30",
+        "fechaRecepcionMuestra": "2021-06-30",
+        "fechaTomaMuestra": "2021-06-30"
+      },
+      "interlocutores": [
+        {
+          "codigoIdentificacion": "39100633N",
+          "codigoIdioma": "ES",
+          "codigoInterlocutor": "2047524",
+          "codigoPaisInterlocutor": "ES",
+          "nombreInterlocutor": "TERESA",
+          "primApellidoInterlocutor": "PONS",
+          "rolInterlocutor": "ZH",
+          "segApellidoInterlocutor": "MAESO",
+          "telefono1Interlocutor": "629276881",
+          "telefono2Interlocutor": "937845252",
+          "tipoIdentificacion": "1",
+          "tratamientoInterlocutor": "Sra."
+        },
+        {
+          "codigoInterlocutor": "19000",
+          "nombreInterlocutor": "TERRASSA",
+          "oficinaVentasCopa": "ES",
+          "provinciaInterlocutor": "08",
+          "rolInterlocutor": "ZR"
+        },
+        {
+          "codigoInterlocutor": "750",
+          "nombreInterlocutor": "MUTUA GENERAL DE CATALUNYA",
+          "rolInterlocutor": "ZC"
+        },
+        {
+          "codigoEspecialidad": "Medicina interna",
+          "codigoInterlocutor": "0819908",
+          "nombreInterlocutor": "PERE",
+          "numeroColegiado": "0819908",
+          "primApellidoInterlocutor": "ALMAGRO",
+          "rolInterlocutor": "ZP",
+          "segApellidoInterlocutor": "MENA",
+          "tratamientoInterlocutor": "Dr"
+        }
+      ],
+      "medico": {},
+      "nifCliente": "V08846644",
+      "operacion": {},
+      "paciente": {
+        "codigoPoliza": "000000002254059"
+      },
+      "pruebas": [
+        {
+          "alertas": [],
+          "cantidadRequerida": 1,
+          "codigoMaterial": "999",
+          "codigoMaterialFacturacion": "999P",
+          "codigosSnomed": [],
+          "delegacionProductiva": "0098",
+          "dependeResultado": false,
+          "descripcionMaterial": "HEMOGRAMA COMPLETO",
+          "esFacturable": false,
+          "esPerfil": true,
+          "esPrivado": false,
+          "esTerceros": false,
+          "estados": [],
+          "idItem": "1",
+          "idParent": "0",
+          "nifCliente": "V08846644",
+          "tipoMuestra": "SV",
+          "tipoPosicion": 0
+        },
+        {
+          "alertas": [],
+          "cantidadRequerida": 1,
+          "codigoMaterial": "B1830",
+          "codigoMaterialFacturacion": "H",
+          "codigosSnomed": [],
+          "delegacionProductiva": "0098",
+          "dependeResultado": false,
+          "descripcionMaterial": "Hemograma completo",
+          "esFacturable": false,
+          "esPerfil": false,
+          "esPrivado": false,
+          "esTerceros": false,
+          "estados": [
+            {
+              "codigoEstado": "VA",
+              "fechaEstado": "2021-06-30"
+            }
+          ],
+          "idItem": "2",
+          "idParent": "1",
+          "nifCliente": "V08846644",
+          "tipoMuestra": "SV",
+          "tipoPosicion": 0
+        },
+        {
+          "alertas": [],
+          "cantidadRequerida": 1,
+          "codigoMaterial": "6897",
+          "codigoMaterialFacturacion": "VSG",
+          "codigosSnomed": [],
+          "delegacionProductiva": "0098",
+          "dependeResultado": false,
+          "descripcionMaterial": "VSG",
+          "esFacturable": false,
+          "esPerfil": false,
+          "esPrivado": false,
+          "esTerceros": false,
+          "estados": [
+            {
+              "codigoEstado": "VA",
+              "fechaEstado": "2021-06-30"
+            }
+          ],
+          "idItem": "3",
+          "idParent": "1",
+          "nifCliente": "V08846644",
+          "tipoMuestra": "SV",
+          "tipoPosicion": 0
+        },
+        {
+          "alertas": [],
+          "cantidadRequerida": 1,
+          "codigoMaterial": "B0030",
+          "codigoMaterialFacturacion": "GLU",
+          "codigosSnomed": [],
+          "delegacionProductiva": "0098",
+          "dependeResultado": false,
+          "descripcionMaterial": "Glucosa suero",
+          "esFacturable": true,
+          "esPerfil": false,
+          "esPrivado": false,
+          "esTerceros": false,
+          "estados": [
+            {
+              "codigoEstado": "VA",
+              "fechaEstado": "2021-06-30"
+            }
+          ],
+          "idItem": "4",
+          "idParent": "0",
+          "nifCliente": "V08846644",
+          "tipoMuestra": "SV",
+          "tipoPosicion": 0
+        }
+      ],
+      "tipoPeticion": "1",
+      "usuarioTrak": "MCHIMENO"
+    }
+  ]
+}

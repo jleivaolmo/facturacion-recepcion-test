@@ -1,0 +1,210 @@
+{
+    "codigoOficinaVentas": "0001",
+    "codigoPeticion": "V00000006",
+    "codigoSistema": "1",
+    "codigoUsuarioExterno": "PBANDERA",	
+    "estados": [],
+    "peticion": [
+        {
+            "alertas": [],
+            "cargoPeticion": "052232",
+            "clinicos": {},
+            "codigoDelegacion": "0002",
+            "codigoIdioma": "CA",
+            "codigoPeticion": "V00000006",
+			"categoriaPeticion": "Categoria2",	
+			"codigoSector": "Cod. Sector2",		
+			"personaRemitente": "Remitente2",
+	        "codigoReferenciaCliente": "Ref. Cl2",
+			"codigoReferenciaExterno": "Ref. Ex2",	
+			"codigoCertificado": "Certificado2",		
+			"hojaPeticionServicio": "hoja2",		
+			"codigoPaisCliente": "AD",
+            "contenedor": [
+                {
+                    "cantidadContenedor": 1.00,
+                    "codigoContenedor": "EDTA",
+                    "descripcionContenedor": "TUBO EDTA"
+                },
+                {
+                    "cantidadContenedor": 1.00,
+                    "codigoContenedor": "TO10",
+                    "descripcionContenedor": "TUBO ORINA 10 mL"
+                },
+                {
+                    "cantidadContenedor": 1.00,
+                    "codigoContenedor": "TS",
+                    "descripcionContenedor": "TUBO SUERO GEL"
+                }
+            ],
+            "esInmediato": false,
+            "esMuestraRemitida": false,
+            "esPresupuesto": false,
+            "esPrivado": false,
+            "estados": [],
+            "fechas": {
+                "fechaPeticion": "2021-07-28",
+                "fechaPrescripcion": "2021-06-28",
+                "fechaRecepcionMuestra": "2021-06-28",
+                "fechaTomaMuestra": "2021-06-28",
+				"fechaOperacion": "2021-06-28",
+				"fechaDerivacion": "2021-06-28",
+                "horaOperacion": "13:50:00"
+            },
+            "interlocutores": [
+                {
+                    "codigoIdentificacion": "10548183S",
+                    "codigoIdioma": "ES",
+                    "codigoInterlocutor": "10706799",
+                    "codigoPaisInterlocutor": "ES",
+                    "nombreInterlocutor": "TEOFILO",
+                    "primApellidoInterlocutor": "VALDES",
+                    "rolInterlocutor": "ZH",
+                    "segApellidoInterlocutor": "SANCHEZ",
+                    "telefono1Interlocutor": "646831276",
+                    "tipoIdentificacion": "1",
+                    "tratamientoInterlocutor": "Sr."
+                },
+                {
+                    "codigoInterlocutor": "40260",
+                    "codigoPaisInterlocutor": "ES",
+                    "nombreInterlocutor": "BIOCLINIC",
+                    "oficinaVentasCopa": "0001",
+                    "provinciaInterlocutor": "33",
+                    "rolInterlocutor": "ZR"
+                },
+                {
+                    "codigoInterlocutor": "223",
+                    "nombreInterlocutor": "ASISA, S.A.",
+                    "rolInterlocutor": "ZC"
+                },
+                {
+                    "codigoEspecialidad": "Medicina general",
+                    "codigoInterlocutor": "2837088",
+                    "nombreInterlocutor": "MARIA EULALIA",
+                    "numeroColegiado": "2837088",
+                    "primApellidoInterlocutor": "RODRIGUEZ",
+                    "rolInterlocutor": "ZP",
+                    "segApellidoInterlocutor": "GRAGERA",
+                    "tratamientoInterlocutor": "DRA."
+                }
+            ],
+            "medico": {
+                "codigoMedico": "07280021928"
+            },
+            "nifCliente": "B08169294",
+            "operacion": {
+                "codigoOperacion": "216845167"
+            },
+            "paciente": {
+                "codigoDocumento": "004595822232",
+                "codigoPoliza": "190828601263001"
+            },
+            "pruebas": [
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "6897",
+                    "codigoMaterialFacturacion": "6897P",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "PERFIL BASICO ORINA",
+                    "esFacturable": false,
+                    "esPerfil": true,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "1",
+                    "idParent": "0",
+                    "nifCliente": "B08169294",
+                    "tipoMuestra": "OR",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0690",
+                    "codigoMaterialFacturacion": "SEDI",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Sedimento orina",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-06-26"
+                        }
+                    ],
+                    "idItem": "2",
+                    "idParent": "1",
+                    "nifCliente": "B08169294",
+                    "tipoMuestra": "OR",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B1830",
+                    "codigoMaterialFacturacion": "URIB",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Urianálisis",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-06-26"
+                        }
+                    ],
+                    "idItem": "3",
+                    "idParent": "1",
+                    "nifCliente": "B08169294",
+                    "tipoMuestra": "OR",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [
+                        {
+                            "codigoAlerta": "FD",
+                            "textoAlerta": "Falta Documentación"
+                        }
+                    ],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B1831",
+                    "codigoMaterialFacturacion": "URIB",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Urianálisis",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-06-26"
+                        }
+                    ],
+                    "idItem": "4",
+                    "idParent": "0",
+                    "nifCliente": "B08169294",
+                    "tipoMuestra": "OR",
+                    "tipoPosicion": 0
+
+                }
+            ],
+            "tipoPeticion": "2",
+            "usuarioTrak": "PBANDERA"
+        }
+    ]
+}

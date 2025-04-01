@@ -1,0 +1,1555 @@
+{
+    "codigoOficinaVentas": "0001",
+    "codigoPeticion": "S03455653",
+    "codigoSistema": "1",
+    "codigoUsuarioExterno": "CRMARTIN",
+    "estados": [],
+    "peticion": [
+        {
+            "alertas": [],
+            "cargoPeticion": "05114",
+            "clinicos": {},
+            "codigoDelegacion": "0001",
+            "codigoIdioma": "ES",
+            "codigoPeticion": "S03455653",
+            "contenedor": [],
+            "esInmediato": true,
+            "esMuestraRemitida": false,
+            "esPresupuesto": false,
+            "esPrivado": false,
+            "estados": [],
+            "fechas": {
+                "fechaPeticion": "2021-10-29",
+                "fechaPrescripcion": "2021-10-29",
+                "fechaRecepcionMuestra": "2021-10-29",
+                "fechaTomaMuestra": "2021-10-29"
+            },
+            "interlocutores": [
+                {
+                    "codigoIdentificacion": "47923404Y",
+                    "codigoIdioma": "ES",
+                    "codigoInterlocutor": "2733573",
+                    "codigoPaisInterlocutor": "ES",
+                    "nombreInterlocutor": "IRENE",
+                    "primApellidoInterlocutor": "MIQUEL",
+                    "rolInterlocutor": "ZH",
+                    "segApellidoInterlocutor": "LOPEZ",
+                    "telefono1Interlocutor": "933457897",
+                    "telefono2Interlocutor": "629913629",
+                    "tipoIdentificacion": "1",
+                    "tratamientoInterlocutor": "Sra."
+                },
+                {
+                    "codigoInterlocutor": "9999",
+                    "codigoPaisInterlocutor": "ES",
+                    "nombreInterlocutor": "BARCELONA",
+                    "oficinaVentasCopa": "0001",
+                    "provinciaInterlocutor": "08",
+                    "rolInterlocutor": "ZR"
+                },
+                {
+                    "codigoInterlocutor": "114",
+                    "nombreInterlocutor": "SANITAS S.A.DE SEGUROS",
+                    "rolInterlocutor": "ZC"
+                },
+                {
+                    "codigoEspecialidad": "Alergología",
+                    "codigoInterlocutor": "0817633",
+                    "nombreInterlocutor": "LEOPOLD",
+                    "numeroColegiado": "0817633",
+                    "primApellidoInterlocutor": "PAU ",
+                    "rolInterlocutor": "ZP",
+                    "segApellidoInterlocutor": "CASANOVAS",
+                    "tratamientoInterlocutor": "DR."
+                }
+            ],
+            "medico": {},
+            "nifCliente": "A28037042",
+            "operacion": {},
+            "paciente": {
+                "codigoDocumento": "009810640525",
+                "codigoPoliza": "803436815146561000000010"
+            },
+            "pruebas": [
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "999",
+                    "codigoMaterialFacturacion": "999P",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "HEMOGRAMA COMPLETO",
+                    "esFacturable": false,
+                    "esPerfil": true,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "1",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "H0000",
+                    "codigoMaterialFacturacion": "H",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Hemograma completo",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "2",
+                    "idParent": "1",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "H0020",
+                    "codigoMaterialFacturacion": "VSG",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "VSG",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "3",
+                    "idParent": "1",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "5037",
+                    "codigoMaterialFacturacion": "IMGM",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "CX Inmunoglobulinas suero",
+                    "esFacturable": false,
+                    "esPerfil": true,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "4",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B7600",
+                    "codigoMaterialFacturacion": "IGAGG",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Inmunoglobulinas IgG",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "5",
+                    "idParent": "4",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B7610",
+                    "codigoMaterialFacturacion": "IGAGA",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Inmunoglobulinas IgA",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "6",
+                    "idParent": "4",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B7620",
+                    "codigoMaterialFacturacion": "IGAGM",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Inmunoglobulinas",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "7",
+                    "idParent": "4",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0000",
+                    "codigoMaterialFacturacion": "GLU",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Glucosa suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "8",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0010",
+                    "codigoMaterialFacturacion": "COL",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Colesterol",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "9",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0020",
+                    "codigoMaterialFacturacion": "URE1",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Urea suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "10",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0030",
+                    "codigoMaterialFacturacion": "CR1",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Creatinina suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "11",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0040",
+                    "codigoMaterialFacturacion": "TRIG",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Triglicéridos",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "12",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0050",
+                    "codigoMaterialFacturacion": "GPT",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "GPT-ALT",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "13",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0060",
+                    "codigoMaterialFacturacion": "GOT",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "GOT-AST",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "14",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0080",
+                    "codigoMaterialFacturacion": "BRT",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Bilirrubina total suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "15",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0100",
+                    "codigoMaterialFacturacion": "CA1",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Calcio suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "16",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0110",
+                    "codigoMaterialFacturacion": "LDH",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "LDH",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "17",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0120",
+                    "codigoMaterialFacturacion": "FO1",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Fósforo suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "18",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0130",
+                    "codigoMaterialFacturacion": "SID",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Sideremia",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "19",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0150",
+                    "codigoMaterialFacturacion": "SOD1",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Sodio suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "20",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0160",
+                    "codigoMaterialFacturacion": "POT1",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Potasio suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "21",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0170",
+                    "codigoMaterialFacturacion": "HDLC",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "HDL-colesterol",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "22",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0180",
+                    "codigoMaterialFacturacion": "LDLC",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "LDL-colesterol",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "23",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0220",
+                    "codigoMaterialFacturacion": "CK",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Creatinkinasa",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "24",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0235",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0001",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Creatinkinasa-MB actividadFANTASMA",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "25",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0240",
+                    "codigoMaterialFacturacion": "PTO",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Proteínas totales suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "26",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0250",
+                    "codigoMaterialFacturacion": "AU1",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Úrico ac. suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "27",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0261",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0001",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Bilirrubina directa FANTASMA",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "28",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0300",
+                    "codigoMaterialFacturacion": "HBA1",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Hemoglobina A1C",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "29",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0320",
+                    "codigoMaterialFacturacion": "CL1",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Cloruros suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "30",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0350",
+                    "codigoMaterialFacturacion": "AM1",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Amilasa suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "31",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B1260",
+                    "codigoMaterialFacturacion": "IONC",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Ionograma s osm. suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "32",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B1510",
+                    "codigoMaterialFacturacion": "TROP",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Troponina T (cualit)",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-30"
+                        }
+                    ],
+                    "idItem": "33",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B1600",
+                    "codigoMaterialFacturacion": "MAGNM",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Magnesio",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "34",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B1970",
+                    "codigoMaterialFacturacion": "FAL",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Fosf.alcalina",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "35",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B2060",
+                    "codigoMaterialFacturacion": "PROTE",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Proteinograma suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "36",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B3170",
+                    "codigoMaterialFacturacion": "PC",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Proteína C reactiva",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "37",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B5370",
+                    "codigoMaterialFacturacion": "FE",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "38",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B5390",
+                    "codigoMaterialFacturacion": "PAP",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "39",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B5590",
+                    "codigoMaterialFacturacion": "HOMTP",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "40",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B6050",
+                    "codigoMaterialFacturacion": "T3",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "41",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B6060",
+                    "codigoMaterialFacturacion": "T4",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "42",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B6070",
+                    "codigoMaterialFacturacion": "T4L",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "43",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B6130",
+                    "codigoMaterialFacturacion": "TSH",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "44",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B6170",
+                    "codigoMaterialFacturacion": "TIRO",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-30"
+                        }
+                    ],
+                    "idItem": "45",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B8998",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0001",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Comentario suplem. biotina",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "46",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B8999",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0001",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Comentario metamizol",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "47",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "H0010",
+                    "codigoMaterialFacturacion": "GRH",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Grupo y Rh",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "48",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "H0040",
+                    "codigoMaterialFacturacion": "ANT3",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Antitrombina III",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "49",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "H0050",
+                    "codigoMaterialFacturacion": "FB",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Fibrinógeno",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "50",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "H0230",
+                    "codigoMaterialFacturacion": "RET",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Reticulocitos",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "51",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "H0850",
+                    "codigoMaterialFacturacion": "APTT",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Cefalina-APTT",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "52",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "H0860",
+                    "codigoMaterialFacturacion": "PTB",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Protrombina",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-29"
+                        }
+                    ],
+                    "idItem": "53",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "I0060",
+                    "codigoMaterialFacturacion": "CERU",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Ceruloplasmina",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-11-02"
+                        }
+                    ],
+                    "idItem": "54",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "I3141",
+                    "codigoMaterialFacturacion": "ABO",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-30"
+                        }
+                    ],
+                    "idItem": "55",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "P0200",
+                    "codigoMaterialFacturacion": "RAST",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Dermatophagoides pteronyssinus-RAST",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-30"
+                        }
+                    ],
+                    "idItem": "56",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "P0201",
+                    "codigoMaterialFacturacion": "RAST",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Dermatophagoides farinae-RAST",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-30"
+                        }
+                    ],
+                    "idItem": "57",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "P0452",
+                    "codigoMaterialFacturacion": "RAST",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Gato (caspa)-RAST",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-30"
+                        }
+                    ],
+                    "idItem": "58",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "P0456",
+                    "codigoMaterialFacturacion": "RAST",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Perro (caspa)-RAST",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": true,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-30"
+                        }
+                    ],
+                    "idItem": "59",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "P0506",
+                    "codigoMaterialFacturacion": "RAST",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0098",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Alternaria alternata ( A. Tenuis )-RAST",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": true,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-30"
+                        }
+                    ],
+                    "idItem": "60",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                }
+            ],
+            "tipoPeticion": "1",
+            "usuarioTrak": "CRMARTIN"
+        }
+    ]
+}

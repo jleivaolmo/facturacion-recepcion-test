@@ -1,0 +1,316 @@
+{
+	"codigoOficinaVentas": "0013",
+	"numeroReferenciaCliente": "",
+	"numeroReferenciaExterno": "",
+	"codigoUsuarioExterno": "SGGABANA",
+	"codigoSistema": 1,
+	"codigoPeticion": "MIXVA0001",
+	"peticion": [
+		{
+			"codigoPeticion": "MIXVA0001",
+			"tipoPeticion": 1,
+			"categoriaPeticion": 0,
+			"codigoDelegacion": "13",
+			"codigoSector": "",
+			"codigoCliente": "",
+			"nifCliente": "A28011864",
+			"cargoPeticion": "0533",
+			"esMuestraRemitida": false,
+			"esInmediato": false,
+			"esPrivado": false,
+			"personaRemitente": "",
+			"codigoReferenciaCliente": "",
+			"codigoReferenciaExterno": "",
+			"codigoCertificado": "",
+			"bloqueoFactura": "",
+			"esPresupuesto": false,
+			"codigoIdioma": "",
+			"hojaPeticionServicio": "",
+			"codigoPaisCliente": "",
+			"estados": [],
+			"fechas": {
+				"fechaPeticion": "2020-01-28",
+				"fechaTomaMuestra": "2020-01-28",
+				"fechaRecepcionMuestra": "2020-01-28"
+            },
+			"alertas": [
+				{
+					"codigoAlerta": "FA"
+				}
+			],
+			"precio": {},
+			"interlocutores": [
+				{
+					"rolInterlocutor": "ZC",
+					"codigoInterlocutor": "40176",
+					"nifInterlocutor": "",
+					"nombreInterlocutor": "SEGURCAIXA ADESLAS",
+					"primApellidoInterlocutor": "",
+					"segApellidoInterlocutor": "",
+					"tratamientoInterlocutor": "",
+					"direccionInterlocutor": "",
+					"poblacionInterlocutor": "",
+					"codigoPostalInterlocutor": "",
+					"provinciaInterlocutor": "",
+					"numeroColegiado": "",
+					"codigoEspecialidad": "",
+					"codigoReferencia": "",
+					"telefono1Interlocutor": "",
+					"telefono2Interlocutor": "",
+					"emailInterlocutor": "",
+					"codigoPaisInterlocutor": "",
+					"inicialesInterlocutor": "",
+					"tipoIdentificacion": "",
+					"codigoIdentificacion": "",
+					"codigoCip": "",
+					"codigoIdioma": ""
+				},
+				{
+					"rolInterlocutor": "ZR",
+					"codigoInterlocutor": "40987",
+					"nifInterlocutor": "",
+					"nombreInterlocutor": "CASTELLDEFELS",
+					"primApellidoInterlocutor": "",
+					"segApellidoInterlocutor": "",
+					"tratamientoInterlocutor": "",
+					"direccionInterlocutor": "AVDA.CONSTITUCION 185-187 BAJOS",
+					"poblacionInterlocutor": "CASTELLDEFELS",
+					"codigoPostalInterlocutor": "08860",
+					"provinciaInterlocutor": "08",
+					"numeroColegiado": "",
+					"codigoEspecialidad": "",
+					"codigoReferencia": "",
+					"telefono1Interlocutor": "",
+					"telefono2Interlocutor": "",
+					"emailInterlocutor": "",
+					"codigoPaisInterlocutor": "",
+					"inicialesInterlocutor": "",
+					"tipoIdentificacion": "",
+					"codigoIdentificacion": "",
+					"codigoCip": "",
+					"codigoIdioma": ""
+				},
+				{
+					"rolInterlocutor": "ZP",
+					"codigoInterlocutor": "0855818",
+					"nifInterlocutor": "",
+					"nombreInterlocutor": "JOSE ANDRES",
+					"primApellidoInterlocutor": "ALCARAZ",
+					"segApellidoInterlocutor": "SERRAT",
+					"tratamientoInterlocutor": "DR.",
+					"direccionInterlocutor": "AVDA. CONSTITUCION, Nº 183",
+					"poblacionInterlocutor": "CASTELLDEFELS",
+					"codigoPostalInterlocutor": "08860",
+					"provinciaInterlocutor": "08",
+					"numeroColegiado": "0855818",
+					"codigoEspecialidad": "Aparato Digestivo",
+					"codigoReferencia": "",
+					"telefono1Interlocutor": "",
+					"telefono2Interlocutor": "",
+					"emailInterlocutor": "",
+					"codigoPaisInterlocutor": "",
+					"inicialesInterlocutor": "",
+					"tipoIdentificacion": "",
+					"codigoIdentificacion": "",
+					"codigoCip": "",
+					"codigoIdioma": ""
+				},
+				{
+					"rolInterlocutor": "ZH",
+					"codigoInterlocutor": "6599315",
+					"nifInterlocutor": "36926216S",
+					"nombreInterlocutor": "MONTSERRAT",
+					"primApellidoInterlocutor": "CAMPOS",
+					"segApellidoInterlocutor": "DOMENECH",
+					"tratamientoInterlocutor": "",
+					"direccionInterlocutor": "AVDA. MIGUEL DE CERVANTES, 13,",
+					"poblacionInterlocutor": "VILADECANS",
+					"codigoPostalInterlocutor": "08840",
+					"provinciaInterlocutor": "08",
+					"numeroColegiado": "",
+					"codigoEspecialidad": "",
+					"codigoReferencia": "",
+					"telefono1Interlocutor": "",
+					"telefono2Interlocutor": "609909585",
+					"emailInterlocutor": "",
+					"codigoPaisInterlocutor": "",
+					"inicialesInterlocutor": "",
+					"tipoIdentificacion": "1",
+					"codigoIdentificacion": "36926216S",
+					"codigoCip": "",
+					"codigoIdioma": ""
+				}
+			],
+			"contenedor": [
+				{
+					"codigoContenedor": "EDTA",
+					"descripcionContenedor": "TUBO EDTA",
+					"cantidadContenedor": 1.0
+				},
+				{
+					"codigoContenedor": "ESP",
+					"descripcionContenedor": "ESPECIAL",
+					"cantidadContenedor": 1.0
+				}
+			],
+			"operacion": {
+				"codigoAutorizacion": "",
+				"codigoBeneficiario": "",
+				"codigoProceso": "",
+				"codigoOperacion": "3850062",
+				"codigoRegistro": ""
+			},
+			"medico": {
+				"codigoMedico": "",
+				"tipoMedico": "",
+				"especialidadMedico": ""
+			},
+			"clinicos": {
+				"codigoVisita": "",
+				"codigoEstudio": "",
+				"codigoSeleccion": "",
+				"codigoLote": "",
+				"codigoHistoriaClinica": "",
+				"codigoTratamiento": "",
+				"codigoHabitacion": "",
+				"codigoCama": "",
+				"codigoServicio": "",
+				"codigoLugarMuestreo": "",
+				"entidadPrescriptora": "",
+				"codigoOficina": ""
+			},
+			"paciente": {
+				"numeroPaciente": "",
+				"tipoDocumento": "",
+				"codigoDocumento": "0884624131",
+				"codigoPoliza": "681607051",
+				"cuentaCotizacion": "",
+				"nombreCuentaCotizacion": "",
+				"numeroContrato": "",
+				"puestoTrabajo": "",
+				"numeroEmpleado": "",
+				"codigoColectivo": "",
+				"operarioMuestreado": "",
+				"codigoPropietario": "",
+				"nombreAnimal": "",
+				"codigoDescripcion": ""
+			},
+			"pruebas": [
+				{
+					"idItem": 1,
+					"idParent": 0,
+					"codigoPrueba": "1_G1421",
+					"codigoMaterial": "G1421",
+					"descripcionMaterial": "",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "CTRNE",
+					"unidadMaterial": "",
+					"delegacionProductiva": "99",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 2,
+					"idParent": 0,
+					"codigoPrueba": "2_G1421",
+					"codigoMaterial": "G1421",
+					"descripcionMaterial": "",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "CTRNE",
+					"unidadMaterial": "",
+					"delegacionProductiva": "99",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 3,
+					"idParent": 0,
+					"codigoPrueba": "3_G1420129",
+					"codigoMaterial": "G1420",
+					"descripcionMaterial": "",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "SIFIL",
+					"unidadMaterial": "",
+					"delegacionProductiva": "99",
+					"codigoCargo": "1297",
+					"codigoCliente": "",
+					"nifCliente": "PRIVADO",
+					"codigoLote": "",
+					"esPrivado": true,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2020-02-05"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				}
+			]
+		}
+	],
+	"estados": []
+}

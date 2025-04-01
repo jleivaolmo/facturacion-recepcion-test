@@ -1,0 +1,3 @@
+INSERT INTO IT_ConfiguracionFieldStatus (ID, `entity_creation_timestamp`, `entity_version` , `inactive`, `last_updated_timestamp`,`configurationLevel`,`allowChanges`,`fk_EntityFieldName`,`fk_MasDataEstadosGrupo`)  VALUES (1,NOW(), 1,0, NOW(), 'S',1,5026,1);
+INSERT INTO IT_ConfiguracionFieldStatus (ID, `entity_creation_timestamp`, `entity_version` , `inactive`, `last_updated_timestamp`,`configurationLevel`,`allowChanges`,`fk_EntityFieldName`,`fk_MasDataEstadosGrupo`)  VALUES (2,NOW(), 1,0, NOW(), 'A',0,5047,1);
+INSERT INTO IT_ConfiguracionFieldStatus (ID, `entity_creation_timestamp`, `entity_version` , `inactive`, `last_updated_timestamp`,`configurationLevel`,`allowChanges`,`fk_EntityFieldName`,`fk_MasDataEstadosGrupo`)  VALUES (3,NOW(), 1,0, NOW(), 'S',0,1293,1);

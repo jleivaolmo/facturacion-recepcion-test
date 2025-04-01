@@ -1,0 +1,252 @@
+{
+    "codigoOficinaVentas": "0001",
+    "codigoPeticion": "T88800120",
+    "codigoSistema": "1",
+    "codigoUsuarioExterno": "LHERNANDEZ",
+    "estados": [],
+    "peticion": [
+        {
+            "alertas": [
+                {
+                    "codigoAlerta": "FD",
+                    "textoAlerta": "Falta Documentación"
+                }
+            ],
+            "cargoPeticion": "053320",
+            "clinicos": {},
+            "codigoDelegacion": "0001",
+            "codigoIdioma": "ES",
+            "codigoPeticion": "T88800120",
+            "contenedor": [
+                {
+                    "cantidadContenedor": 1.00,
+                    "codigoContenedor": "EDTA",
+                    "descripcionContenedor": "TUBO EDTA"
+                },
+                {
+                    "cantidadContenedor": 1.00,
+                    "codigoContenedor": "TS",
+                    "descripcionContenedor": "TUBO SUERO GEL"
+                }
+            ],
+            "esInmediato": true,
+            "esMuestraRemitida": false,
+            "esPresupuesto": false,
+            "esPrivado": false,
+            "estados": [],
+            "fechas": {
+                "fechaPeticion": "2022-02-23",
+                "fechaRecepcionMuestra": "2022-02-23",
+                "fechaTomaMuestra": "2022-02-23"
+            },
+            "interlocutores": [
+                {
+                    "codigoIdioma": "ES",
+                    "codigoInterlocutor": "14780103",
+                    "codigoPaisInterlocutor": "ES",
+                    "nombreInterlocutor": "NOMB",
+                    "primApellidoInterlocutor": "APE1",
+                    "rolInterlocutor": "ZH",
+                    "segApellidoInterlocutor": "APE2",
+                    "tratamientoInterlocutor": "Sra."
+                },
+                {
+                    "codigoInterlocutor": "9999",
+                    "codigoPaisInterlocutor": "ES",
+                    "nombreInterlocutor": "BARCELONA",
+                    "oficinaVentasCopa": "0001",
+                    "provinciaInterlocutor": "08",
+                    "rolInterlocutor": "ZR"
+                },
+                {
+                    "codigoInterlocutor": "40176",
+                    "nombreInterlocutor": "SEGURCAIXA ADESLAS",
+                    "rolInterlocutor": "ZC"
+                }
+            ],
+            "medico": {},
+            "nifCliente": "A28011864",
+            "operacion": {},
+            "paciente": {},
+            "pruebas": [
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "999",
+                    "codigoMaterialFacturacion": "999P",
+                    "codigosSnomed": [],
+                    "dependeResultado": false,
+                    "descripcionMaterial": "HEMOGRAMA COMPLETO",
+                    "esFacturable": false,
+                    "esPerfil": true,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "1",
+                    "idParent": "0",
+                    "nifCliente": "A28011864",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "H0000",
+                    "codigoMaterialFacturacion": "H",
+                    "codigosSnomed": [],
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Hemograma completo",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "2",
+                    "idParent": "1",
+                    "nifCliente": "A28011864",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "H0020",
+                    "codigoMaterialFacturacion": "VSG",
+                    "codigosSnomed": [],
+                    "dependeResultado": false,
+                    "descripcionMaterial": "VSG",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "3",
+                    "idParent": "1",
+                    "nifCliente": "A28011864",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0040",
+                    "codigoMaterialFacturacion": "TRIG",
+                    "codigosSnomed": [],
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Triglicéridos",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "4",
+                    "idParent": "0",
+                    "nifCliente": "A28011864",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0050",
+                    "codigoMaterialFacturacion": "GPT",
+                    "codigosSnomed": [],
+                    "dependeResultado": false,
+                    "descripcionMaterial": "GPT-ALT",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "5",
+                    "idParent": "0",
+                    "nifCliente": "A28011864",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0060",
+                    "codigoMaterialFacturacion": "GOT",
+                    "codigosSnomed": [],
+                    "dependeResultado": false,
+                    "descripcionMaterial": "GOT-AST",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "6",
+                    "idParent": "0",
+                    "nifCliente": "A28011864",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B0070",
+                    "codigoMaterialFacturacion": "GGT",
+                    "codigosSnomed": [],
+                    "dependeResultado": false,
+                    "descripcionMaterial": "GGT",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "7",
+                    "idParent": "0",
+                    "nifCliente": "A28011864",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B1970",
+                    "codigoMaterialFacturacion": "FAL",
+                    "codigosSnomed": [],
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Fosf.alcalina",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [],
+                    "idItem": "8",
+                    "idParent": "0",
+                    "nifCliente": "A28011864",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B8999",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0001",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Comentario metamizol",
+                    "esFacturable": false,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2022-02-23"
+                        }
+                    ],
+                    "idItem": "9",
+                    "idParent": "0",
+                    "nifCliente": "A28011864",
+                    "tipoPosicion": 0
+                }
+            ],
+            "tipoPeticion": "1",
+            "usuarioTrak": "LHERNANDEZ"
+        }
+    ]
+}

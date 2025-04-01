@@ -1,0 +1,158 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.echevarne.sap.cloud.facturacion</groupId>
+		<artifactId>facturacion-base</artifactId>
+		<version>1.9.1-SNAPSHOT</version>
+		<relativePath>../facturacion-base/pom.xml</relativePath>
+	</parent>
+
+	<groupId>com.echevarne.sap.cloud.facturacion.services</groupId>
+	<artifactId>facturacion-recepcion</artifactId>
+
+	<description>Motor de facturación - Recepción de solicitudes</description>
+	<name>facturacion-recepcion</name>
+
+	<properties>
+		<spring-security.version>5.3.4.RELEASE</spring-security.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.echevarne.sap.cloud.facturacion.core</groupId>
+			<artifactId>facturacion-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.echevarne.sap.cloud.facturacion.testing</groupId>
+			<artifactId>facturacion-testing</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>3.25.0-GA</version>
+		</dependency>
+    </dependencies>
+
+	<build>
+		<finalName>facturacion-recepcion</finalName>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+					<configuration>
+						<jvmArguments>-Dfile.encoding=UTF-8 -Duser.timezone="UTC"</jvmArguments>
+						<mainClass>com.echevarne.sap.cloud.facturacion.recepcion.RecepcionBootApplication</mainClass>
+						<excludes>
+							<exclude>
+								<groupId>commons-logging</groupId>
+								<artifactId>commons-logging</artifactId>
+							</exclude>
+						</excludes>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<argLine>-Dfile.encoding=UTF-8 -Duser.timezone="UTC"</argLine>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.hibernate.orm.tooling</groupId>
+				<artifactId>hibernate-enhance-maven-plugin</artifactId>
+				<version>${currentHibernateVersion}</version>
+				<executions>
+					<execution>
+						<phase>process-classes</phase>
+						<configuration>
+							<failOnError>true</failOnError>
+							<enableLazyInitialization>true</enableLazyInitialization>
+							<enableDirtyTracking>true</enableDirtyTracking>
+							<enableAssociationManagement>true</enableAssociationManagement>
+							<enableExtendedEnhancement>false</enableExtendedEnhancement>
+						</configuration>
+						<goals>
+							<goal>enhance</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+            	<executions>
+                	<execution>
+                	    <id>repackage</id>
+               	     	<goals>
+               	        	<goal>repackage</goal>
+                    	</goals>
+            		</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+    <profiles>
+	    <profile>
+            <id>entorno-dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+				<instance-memory>1536M</instance-memory>
+            </properties>
+        </profile>
+        <profile>
+            <id>entorno-pre</id>
+            <properties>
+				<instance-memory>1536M</instance-memory>
+            </properties>
+        </profile>
+        <profile>
+            <id>entorno-pro</id>
+            <properties>
+				<instance-memory>1536M</instance-memory>
+            </properties>
+        </profile>
+        <profile>
+            <id>aspectj</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>aspectj-maven-plugin</artifactId>
+						<version>1.14.0</version>
+						<executions>
+							<execution>
+								<id>para-micro</id>
+								<phase>process-classes</phase>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+        </profile>
+    </profiles>
+	<distributionManagement>
+	   <repository>
+	     <id>github</id>
+	     <name>GitHub tse-eche Apache Maven Packages</name>
+	     <url>https://maven.pkg.github.com/tse-eche/facturacion-recepcion</url>
+	   </repository>
+	</distributionManagement> 
+
+	
+</project>

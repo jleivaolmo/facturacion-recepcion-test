@@ -1,0 +1,102 @@
+{
+    "codigoOficinaVentas": "0001",
+    "codigoPeticion": "90777-123125",
+    "codigoSistema": "1",
+    "codigoUsuarioExterno": "NOLABTRAK",
+    "estados": [],
+    "peticion": [
+        {
+            "alertas": [],
+            "cargoPeticion": "053320",
+            "clinicos": {
+                "codigoServicio": "EXTERN"
+            },
+            "codigoDelegacion": "0001",
+            "codigoIdioma": "ES",
+            "codigoPeticion": "90777-123125",
+            "codigoReferenciaCliente": "EXTERN",
+            "contenedor": [],
+            "esInmediato": false,
+            "esMuestraRemitida": false,
+            "esPresupuesto": false,
+            "esPrivado": false,
+            "estados": [
+                {
+                    "codigoEstado": "VA",
+                    "fechaEstado": "2021-12-17"
+                }
+            ],
+            "fechas": {
+                "fechaPeticion": "2021-11-04",
+                "fechaPrescripcion": "2021-11-04",
+                "fechaRecepcionMuestra": "2021-11-04",
+                "fechaTomaMuestra": "2021-11-04"
+            },
+            "interlocutores": [
+                {
+                    "codigoIdentificacion": "Y7344470D",
+                    "codigoIdioma": "ES",
+                    "codigoInterlocutor": "B1202559",
+                    "codigoPaisInterlocutor": "ES",
+                    "nombreInterlocutor": "NOBLE",
+                    "primApellidoInterlocutor": "CASTILLO",
+                    "rolInterlocutor": "ZH",
+                    "segApellidoInterlocutor": "GLORIA CARMEN",
+                    "tipoIdentificacion": "2"
+                },
+                {
+                    "codigoInterlocutor": "50777",
+                    "codigoPaisInterlocutor": "ES",
+                    "nombreInterlocutor": "LABORATORIO DR.FERRER",
+                    "oficinaVentasCopa": "0001",
+                    "provinciaInterlocutor": "08",
+                    "rolInterlocutor": "ZR"
+                },
+                {
+                    "codigoInterlocutor": "40176",
+                    "nombreInterlocutor": "SEGURCAIXA ADESLAS",
+                    "rolInterlocutor": "ZC"
+                }
+            ],
+            "medico": {
+                "codigoMedico": "DR COELLO CAHUAO"
+            },
+            "nifCliente": "A28011864",
+            "operacion": {},
+            "paciente": {
+                "codigoDocumento": "0238813513",
+                "codigoPoliza": "0880130910000844"
+            },
+            "pruebas": [
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoCargo": "053320",
+                    "codigoMaterial": "B0000",
+                    "codigoMaterialFacturacion": "GLU",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "EXTE",
+                    "dependeResultado": false,
+                    "descripcionMaterial": "Glucosa suero",
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-12-17"
+                        }
+                    ],
+                    "idItem": "3",
+                    "idParent": "0",
+                    "nifCliente": "A28011864",
+                    "tipoMuestra": "SV",
+                    "tipoPosicion": 0
+                }
+            ],
+            "tipoPeticion": "1",
+            "usuarioTrak": "NOLABTRAK"
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+	"id": null,
+	"entityCreationTimestamp": 1571998444000,
+	"lastUpdatedTimestamp": 1571998444000,
+	"entityVersion": 0,
+	"codigoOficinaVentas": "Value for codigoOficinaVentas 2",
+	"numeroReferenciaCliente": "Value for numeroReferenciaCliente 2",
+	"numeroReferenciaExterno": "Value for numeroReferenciaExterno",
+	"codigoUsuarioExterno": "Value for codigoUsuarioExterno",
+	"peticion": [{
+		"id": null,
+		"entityCreationTimestamp": 1571998444000,
+		"lastUpdatedTimestamp": 1571998444000,
+		"entityVersion": 0,
+		"codigoPeticion": "P1002",
+		"cargoPeticion": "Value for cargoPeticion 2",
+		"categoriaPeticion": 0,
+		"codigoCliente": "Value for codigoCliente 2",
+		"codigoDelegacion": "Value for codigoDelegacion",
+		"codigoSector": "Value for codigoSector",
+		"esInmediato": 0,
+		"esMuestraRemitida": 0,
+		"esPrivado": 0,
+		"nifCliente": "Value for nifCliente 2",
+		"codigoReferenciaCliente": "Value for numeroReferenciaCliente",
+		"codigoReferenciaExterno": "Value for numeroReferenciaExterno",
+		"personaRemitente": "Value for personaRemitente",
+		"tipoPeticion": 0,
+		"pruebas": [
+			{
+				"id": null,
+				"entityCreationTimestamp": 1571998444000,
+				"lastUpdatedTimestamp": 1571998444000,
+				"entityVersion": 0,
+				"codigoPrueba": "Value for codigoPrueba",
+				"cantidadRequerida": 0,
+				"codigoCargo": "Value for codigoCargo",
+				"codigoCliente": "Value for codigoCliente",
+				"codigoLote": "Value for codigoLote",
+				"codigoMaterial": "Value for codigoMaterial",
+				"codigoMaterialFacturacion": "Value for codigoMaterialFacturacion",
+				"delegacionProductiva": "Value for delegacionProductiva",
+				"descripcionMaterial": "Value for descripcionMaterial",
+				"descripcionMaterialFacturacion": "Value for descripcionMaterialFacturacion",
+				"esFacturable": 0,
+				"esInformada": 0,
+				"esPerfil": 0,
+				"esPrivado": 0,
+				"esTerceros": 0,
+				"nifCliente": "Value for nifCliente",
+				"tipoMuestra": 0,
+				"unidadMaterial": "Value for unidadMaterial",
+				"precio": {
+					"id": null,
+					"entityCreationTimestamp": 1571998444000,
+					"lastUpdatedTimestamp": 1571998444000,
+					"entityVersion": 0,
+					"codigoDivisa": "Value for codigoDivisa",
+					"precioBase": 0,
+					"precioUnitario": 0
+				},
+				"alertas": [
+					{
+						"id": null,
+						"entityCreationTimestamp": 1571998444000,
+						"lastUpdatedTimestamp": 1571998444000,
+						"entityVersion": 0,
+						"codigoAlerta": "Value for codigoAlerta",
+						"textoAlerta": "Value for textoAlerta 2"
+					},
+					{
+						"id": null,
+						"entityCreationTimestamp": 1571998444000,
+						"lastUpdatedTimestamp": 1571998444000,
+						"entityVersion": 0,
+						"codigoAlerta": "Value for codigoAlerta 3",
+						"textoAlerta": "Value for textoAlerta 3"
+					}
+				],
+				"estados": [
+					{
+						"id": null,
+						"entityCreationTimestamp": 1571998444000,
+						"lastUpdatedTimestamp": 1571998444000,
+						"entityVersion": 0,
+						"codigoEstado": "Value for codigoEstado 3",
+						"codigoEstadoSec": 0,
+						"fechaEstado": 1572745039037
+					}
+				]
+			}
+		],
+		"interlocutores": [],
+		"alertas": [],
+		"estados": [],
+		"fechas": {
+			"id": null,
+			"entityCreationTimestamp": 1571998444000,
+			"lastUpdatedTimestamp": 1571998444000,
+			"entityVersion": 0,
+			"fechaDerivacion": 1572745039031,
+			"fechaOperacion": 1572745039031,
+			"fechaPeticion": 1572745039031,
+			"fechaPrescripcion": 1572745039031,
+			"fechaRecepcionMuestra": 1572745039031,
+			"fechaTomaMuestra": 1572745039031
+		},
+		"precio": {
+			"id": null,
+			"entityCreationTimestamp": 1571998444000,
+			"lastUpdatedTimestamp": 1571998444000,
+			"entityVersion": 0,
+			"codigoDivisa": "Value for codigoDivisa",
+			"precioBase": 0,
+			"precioUnitario": 0
+		},
+		"paciente": {
+			"id": null,
+			"entityCreationTimestamp": 1571998444000,
+			"lastUpdatedTimestamp": 1571998444000,
+			"entityVersion": 0,
+			"numeroPaciente": "Value for numeroPaciente",
+			"tipoDocumento": "Value for tipoDocumento",
+			"codigoPoliza": "Value for codigoPoliza",
+			"cuentaCotizacion": "Value for cuentaCotizacion",
+			"nombreCuentaCotizacion": "Value for nombreCuentaCotizacion",
+			"numeroContrato": "Value for numeroContrato",
+			"puestoTrabajo": "Value for puestoTrabajo",
+			"numeroEmpleado": "Value for numeroEmpleado",
+			"codigoColectivo": "Value for codigoColectivo"
+		},
+		"medico": {
+			"id": null,
+			"entityCreationTimestamp": 1571998444000,
+			"lastUpdatedTimestamp": 1571998444000,
+			"entityVersion": 0,
+			"codigoMedico": "Value for codigoMedico",
+			"tipoMedico": "Value for tipoMedico",
+			"especialidadMedico": "Value for especialidadMedico"
+		},
+		"clinicos": {
+			"id": null,
+			"entityCreationTimestamp": 1571998444000,
+			"lastUpdatedTimestamp": 1571998444000,
+			"entityVersion": 0,
+			"codigoVisita": "Value for codigoVisita",
+			"codigoEstudio": "Value for codigoEstudio",
+			"codigoSeleccion": "Value for codigoSeleccion",
+			"codigoLote": "Value for codigoLote",
+			"codigoHistoriaClinica": "Value for codigoHistoriaClinica",
+			"codigoTratamiento": "Value for codigoTratamiento",
+			"codigoHabitacion": "Value for codigoHabitacion",
+			"codigoCama": "Value for codigoCama",
+			"codigoServicio": "Value for codigoServicio",
+			"codigoLugarMuestreo": "Value for codigoLugarMuestreo"
+		}
+	}],
+	"estados": []
+}

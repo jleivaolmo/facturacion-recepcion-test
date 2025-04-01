@@ -1,0 +1,140 @@
+{
+    "codigoOficinaVentas": "0078",
+    "codigoPeticion": "S03385458",
+    "codigoSistema": "1",
+    "codigoUsuarioExterno": "SMOKHTAR",
+    "estados": [],
+    "peticion": [
+        {
+            "alertas": [
+                {
+                    "codigoAlerta": "FP",
+                    "textoAlerta": "Falta de Pago"
+                }
+            ],
+            "cargoPeticion": "05114",
+            "clinicos": {},
+            "codigoDelegacion": "0078",
+            "codigoIdioma": "ES",
+            "codigoPeticion": "S03385458",
+            "codigoReferenciaCliente": "170-70996",
+            "contenedor": [
+                {
+                    "cantidadContenedor": 1.00,
+                    "codigoContenedor": "FE",
+                    "descripcionContenedor": "FRASCO ESTÉRIL"
+                }
+            ],
+            "esInmediato": true,
+            "esMuestraRemitida": false,
+            "esPresupuesto": false,
+            "esPrivado": false,
+            "estados": [
+                {
+                    "codigoEstado": "VA",
+                    "fechaEstado": "2021-11-23"
+                }
+            ],
+            "fechas": {
+                "fechaPeticion": "2021-10-26",
+                "fechaRecepcionMuestra": "2021-10-26",
+                "fechaTomaMuestra": "2021-10-26"
+            },
+            "interlocutores": [
+                {
+                    "codigoIdentificacion": "45301743T",
+                    "codigoIdioma": "ES",
+                    "codigoInterlocutor": "15137152",
+                    "codigoPaisInterlocutor": "ES",
+                    "nombreInterlocutor": "MOISES",
+                    "primApellidoInterlocutor": "SEVILLA",
+                    "rolInterlocutor": "ZH",
+                    "segApellidoInterlocutor": "FLORES",
+                    "telefono1Interlocutor": "657845853",
+                    "tipoIdentificacion": "1",
+                    "tratamientoInterlocutor": "Sr."
+                },
+                {
+                    "codigoInterlocutor": "46487",
+                    "codigoPaisInterlocutor": "ES",
+                    "nombreInterlocutor": "MELILLA",
+                    "oficinaVentasCopa": "0078",
+                    "provinciaInterlocutor": "52",
+                    "rolInterlocutor": "ZR"
+                },
+                {
+                    "codigoInterlocutor": "114",
+                    "nombreInterlocutor": "SANITAS S.A.DE SEGUROS",
+                    "rolInterlocutor": "ZC"
+                },
+                {
+                    "codigoEspecialidad": "Obstetricia y Ginecología",
+                    "codigoInterlocutor": "5200811",
+                    "nombreInterlocutor": "JUSTO",
+                    "numeroColegiado": "5200811",
+                    "primApellidoInterlocutor": "SANCHO-MIÑANO",
+                    "rolInterlocutor": "ZP",
+                    "segApellidoInterlocutor": "BELMONTE",
+                    "tratamientoInterlocutor": "DR."
+                }
+            ],
+            "medico": {},
+            "nifCliente": "A28037042",
+            "operacion": {},
+            "paciente": {
+                "codigoDocumento": "009803246595",
+                "codigoPoliza": "803436829369761000000018"
+            },
+            "pruebas": [
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoCargo": "12975",
+                    "codigoMaterial": "B6840",
+                    "codigoMaterialFacturacion": "TCAPE",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0078",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-11-23"
+                        }
+                    ],
+                    "idItem": "1",
+                    "idParent": "0",
+                    "tipoPosicion": 0
+                },
+                {
+                    "alertas": [],
+                    "cantidadRequerida": 1.00,
+                    "codigoMaterial": "B7280",
+                    "codigoMaterialFacturacion": "ESPER",
+                    "codigosSnomed": [],
+                    "delegacionProductiva": "0078",
+                    "dependeResultado": false,
+                    "esFacturable": true,
+                    "esPerfil": false,
+                    "esPrivado": false,
+                    "esTerceros": false,
+                    "estados": [
+                        {
+                            "codigoEstado": "VA",
+                            "fechaEstado": "2021-10-27"
+                        }
+                    ],
+                    "idItem": "2",
+                    "idParent": "0",
+                    "nifCliente": "A28037042",
+                    "tipoPosicion": 0
+                }
+            ],
+            "tipoPeticion": "1",
+            "usuarioTrak": "SMOKHTAR"
+        }
+    ]
+}

@@ -1,0 +1,752 @@
+{
+	"codigoOficinaVentas": "0031",
+	"numeroReferenciaCliente": "",
+	"numeroReferenciaExterno": "",
+	"codigoUsuarioExterno": "SURODRIGUE",
+	"codigoSistema": 1,
+	"codigoPeticion": "R00193376",
+	"peticion": [
+		{
+			"codigoPeticion": "R00193376",
+			"tipoPeticion": 1,
+			"categoriaPeticion": 0,
+			"codigoDelegacion": "31",
+			"codigoSector": "",
+			"codigoCliente": "",
+			"nifCliente": "A28011864",
+			"cargoPeticion": "0525",
+			"esMuestraRemitida": true,
+			"esInmediato": false,
+			"esPrivado": false,
+			"personaRemitente": "",
+			"codigoReferenciaCliente": "",
+			"codigoReferenciaExterno": "",
+			"codigoCertificado": "",
+			"bloqueoFactura": "",
+			"esPresupuesto": false,
+			"codigoIdioma": "",
+			"hojaPeticionServicio": "",
+			"codigoPaisCliente": "",
+			"estados": [],
+			"fechas": {
+				"fechaPeticion": "2020-10-28",
+				"fechaTomaMuestra": "2020-10-28",
+				"fechaRecepcionMuestra": "2020-10-28",
+				"fechaOperacion": "0000-00-00",
+				"fechaDerivacion": "0000-00-00",
+				"fechaPrescripcion": "0000-00-00"
+			},
+			"alertas": [],
+			"precio": {
+				"precioBase": 0,
+				"precioUnitario": 0,
+				"codigoDivisa": ""
+			},
+			"interlocutores": [
+				{
+					"rolInterlocutor": "ZC",
+					"codigoInterlocutor": "40176",
+					"nifInterlocutor": "",
+					"nombreInterlocutor": "SEGURCAIXA ADESLAS",
+					"primApellidoInterlocutor": "",
+					"segApellidoInterlocutor": "",
+					"tratamientoInterlocutor": "",
+					"direccionInterlocutor": "",
+					"poblacionInterlocutor": "",
+					"codigoPostalInterlocutor": "",
+					"provinciaInterlocutor": "",
+					"numeroColegiado": "",
+					"codigoEspecialidad": "",
+					"codigoReferencia": "",
+					"telefono1Interlocutor": "",
+					"telefono2Interlocutor": "",
+					"emailInterlocutor": "",
+					"codigoPaisInterlocutor": "",
+					"inicialesInterlocutor": "",
+					"tipoIdentificacion": "",
+					"codigoIdentificacion": "",
+					"codigoCip": "",
+					"codigoIdioma": ""
+				},
+				{
+					"rolInterlocutor": "ZR",
+					"codigoInterlocutor": "9940259",
+					"nifInterlocutor": "",
+					"nombreInterlocutor": "LABORATORIO MIRALLES ZAMORA",
+					"primApellidoInterlocutor": "",
+					"segApellidoInterlocutor": "",
+					"tratamientoInterlocutor": "",
+					"direccionInterlocutor": "",
+					"poblacionInterlocutor": "",
+					"codigoPostalInterlocutor": "",
+					"provinciaInterlocutor": "",
+					"numeroColegiado": "",
+					"codigoEspecialidad": "",
+					"codigoReferencia": "",
+					"telefono1Interlocutor": "",
+					"telefono2Interlocutor": "",
+					"emailInterlocutor": "",
+					"codigoPaisInterlocutor": "",
+					"inicialesInterlocutor": "",
+					"tipoIdentificacion": "",
+					"codigoIdentificacion": "",
+					"codigoCip": "",
+					"codigoIdioma": ""
+				},
+				{
+					"rolInterlocutor": "ZH",
+					"codigoInterlocutor": "13930795",
+					"nifInterlocutor": "",
+					"nombreInterlocutor": "DIANA MARCELA",
+					"primApellidoInterlocutor": "GIL",
+					"segApellidoInterlocutor": "QUIROZ",
+					"tratamientoInterlocutor": "",
+					"direccionInterlocutor": "",
+					"poblacionInterlocutor": "",
+					"codigoPostalInterlocutor": "08037",
+					"provinciaInterlocutor": "",
+					"numeroColegiado": "",
+					"codigoEspecialidad": "",
+					"codigoReferencia": "",
+					"telefono1Interlocutor": "",
+					"telefono2Interlocutor": "",
+					"emailInterlocutor": "",
+					"codigoPaisInterlocutor": "",
+					"inicialesInterlocutor": "",
+					"tipoIdentificacion": "",
+					"codigoIdentificacion": "",
+					"codigoCip": "",
+					"codigoIdioma": ""
+				},
+				{
+					"rolInterlocutor": "ZP",
+					"codigoInterlocutor": "0311441",
+					"nifInterlocutor": "",
+					"nombreInterlocutor": "MARIA",
+					"primApellidoInterlocutor": "CALDERON",
+					"segApellidoInterlocutor": "FERRANDIZ",
+					"tratamientoInterlocutor": "DRA.",
+					"direccionInterlocutor": "C/ PABLO IGLESIAS, N� 27",
+					"poblacionInterlocutor": "ALICANTE/ALACANT",
+					"codigoPostalInterlocutor": "03004",
+					"provinciaInterlocutor": "03",
+					"numeroColegiado": "0311441",
+					"codigoEspecialidad": "Obstetricia y Ginecolog�a",
+					"codigoReferencia": "",
+					"telefono1Interlocutor": "",
+					"telefono2Interlocutor": "",
+					"emailInterlocutor": "",
+					"codigoPaisInterlocutor": "",
+					"inicialesInterlocutor": "",
+					"tipoIdentificacion": "",
+					"codigoIdentificacion": "",
+					"codigoCip": "",
+					"codigoIdioma": ""
+				}
+			],
+			"contenedor": [
+				{
+					"codigoContenedor": "EDTA",
+					"descripcionContenedor": "TUBO EDTA",
+					"cantidadContenedor": 1.0
+				},
+				{
+					"codigoContenedor": "TS",
+					"descripcionContenedor": "TUBO SUERO",
+					"cantidadContenedor": 1.0
+				}
+			],
+			"operacion": {
+				"codigoAutorizacion": "",
+				"codigoBeneficiario": "",
+				"codigoProceso": "",
+				"codigoOperacion": "",
+				"codigoRegistro": ""
+			},
+			"medico": {
+				"codigoMedico": "",
+				"tipoMedico": "",
+				"especialidadMedico": ""
+			},
+			"clinicos": {
+				"codigoVisita": "",
+				"codigoEstudio": "",
+				"codigoSeleccion": "",
+				"codigoLote": "",
+				"codigoHistoriaClinica": "",
+				"codigoTratamiento": "",
+				"codigoHabitacion": "",
+				"codigoCama": "",
+				"codigoServicio": "",
+				"codigoLugarMuestreo": "",
+				"entidadPrescriptora": "",
+				"codigoOficina": ""
+			},
+			"paciente": {
+				"numeroPaciente": "",
+				"tipoDocumento": "",
+				"codigoDocumento": "0305120735",
+				"codigoPoliza": "031528310",
+				"cuentaCotizacion": "",
+				"nombreCuentaCotizacion": "",
+				"numeroContrato": "",
+				"puestoTrabajo": "",
+				"numeroEmpleado": "",
+				"codigoColectivo": "",
+				"operarioMuestreado": "",
+				"codigoPropietario": "",
+				"nombreAnimal": "",
+				"codigoDescripcion": ""
+			},
+			"pruebas": [
+				{
+					"idItem": 1,
+					"idParent": 0,
+					"codigoPrueba": "1_I0050",
+					"codigoMaterial": "I0050",
+					"descripcionMaterial": "RPR test",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "RP",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 2,
+					"idParent": 0,
+					"codigoPrueba": "2_I0050",
+					"codigoMaterial": "I0050",
+					"descripcionMaterial": "RPR test",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "RP",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 3,
+					"idParent": 0,
+					"codigoPrueba": "3_999",
+					"codigoMaterial": "999",
+					"descripcionMaterial": "HEMOGRAMA COMPLETO",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "999P",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": true,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 4,
+					"idParent": 3,
+					"codigoPrueba": "4_999",
+					"codigoMaterial": "H0020",
+					"descripcionMaterial": "HEMOGRAMA COMPLETO",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "VSG",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 5,
+					"idParent": 3,
+					"codigoPrueba": "5_999",
+					"codigoMaterial": "H0000",
+					"descripcionMaterial": "HEMOGRAMA COMPLETO",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "H",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 6,
+					"idParent": 0,
+					"codigoPrueba": "6_D1001129",
+					"codigoMaterial": "D1001",
+					"descripcionMaterial": "",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "ANMUL",
+					"unidadMaterial": "",
+					"delegacionProductiva": "EXTE",
+					"codigoCargo": "1297",
+					"codigoCliente": "",
+					"nifCliente": "PRIVADO",
+					"codigoLote": "",
+					"esPrivado": true,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 7,
+					"idParent": 0,
+					"codigoPrueba": "7_B6340",
+					"codigoMaterial": "B6340",
+					"descripcionMaterial": "",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "ASIDA",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 8,
+					"idParent": 0,
+					"codigoPrueba": "8_B6290",
+					"codigoMaterial": "B6290",
+					"descripcionMaterial": "",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "AVHC",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 9,
+					"idParent": 0,
+					"codigoPrueba": "9_B6250",
+					"codigoMaterial": "B6250",
+					"descripcionMaterial": "",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "HBS",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 10,
+					"idParent": 0,
+					"codigoPrueba": "10_B6130",
+					"codigoMaterial": "B6130",
+					"descripcionMaterial": "",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "TSH",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 11,
+					"idParent": 0,
+					"codigoPrueba": "11_B6071",
+					"codigoMaterial": "B6071",
+					"descripcionMaterial": "T4 libre FANTASMA",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "SC",
+					"unidadMaterial": "",
+					"delegacionProductiva": "31",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": false,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 12,
+					"idParent": 0,
+					"codigoPrueba": "12_B0090",
+					"codigoMaterial": "B0090",
+					"descripcionMaterial": "Colinesterasa/suer",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "COLI",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 13,
+					"idParent": 0,
+					"codigoPrueba": "13_B0030",
+					"codigoMaterial": "B0030",
+					"descripcionMaterial": "Creatinina/suero",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "CR1",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2021-02-19"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				},
+				{
+					"idItem": 14,
+					"idParent": 0,
+					"codigoPrueba": "14_B0020",
+					"codigoMaterial": "B0020",
+					"descripcionMaterial": "Urea/suero",
+					"cantidadRequerida": 1,
+					"tipoMuestra": 0,
+					"codigoMaterialFacturacion": "URE1",
+					"unidadMaterial": "",
+					"delegacionProductiva": "98",
+					"codigoCargo": "",
+					"codigoCliente": "",
+					"nifCliente": "",
+					"codigoLote": "",
+					"esPrivado": false,
+					"esFacturable": true,
+					"esTerceros": false,
+					"esPerfil": false,
+					"dependeResultado": false,
+					"tipoPosicion": 0,
+					"motivoRechazo": "",
+					"numeroOperacion": "",
+					"codigoSnomed": [],
+					"numeroAutorizacion": "",
+					"estados": [
+						{
+							"codigoEstado": "VA",
+							"codigoEstadoSecundario": "",
+							"fechaEstado": "2020-10-29"
+						}
+					],
+					"alertas": [],
+					"precio": {
+						"precioBase": 0,
+						"precioUnitario": 0,
+						"codigoDivisa": ""
+					}
+				}
+			]
+		}
+	],
+	"estados": []
+}
