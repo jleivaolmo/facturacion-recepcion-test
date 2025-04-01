@@ -4,18 +4,11 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>com.echevarne.sap.cloud.facturacion</groupId>
-		<artifactId>facturacion-base</artifactId>
-		<version>1.9.1-SNAPSHOT</version>
-		<relativePath>../facturacion-base/pom.xml</relativePath>
-	</parent>
-
 	<groupId>com.echevarne.sap.cloud.facturacion.services</groupId>
-	<artifactId>facturacion-recepcion</artifactId>
+	<artifactId>facturacion-recepcion-test</artifactId>
 
-	<description>Motor de facturación - Recepción de solicitudes</description>
-	<name>facturacion-recepcion</name>
+	<description>Motor de facturación - Recepción de solicitudes - Test</description>
+	<name>facturacion-recepcion-test</name>
 
 	<properties>
 		<spring-security.version>5.3.4.RELEASE</spring-security.version>
@@ -44,7 +37,7 @@
     </dependencies>
 
 	<build>
-		<finalName>facturacion-recepcion</finalName>
+		<finalName>facturacion-recepcion-test</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
