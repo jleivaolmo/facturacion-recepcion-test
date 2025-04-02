@@ -97,8 +97,6 @@
 			<groupId>com.echevarne.sap.cloud.facturacion.core</groupId>
 			<artifactId>facturacion-core</artifactId>
 			<version>1.9.1-SNAPSHOT</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/libs/facturacion-core.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.javassist</groupId>
@@ -250,7 +248,30 @@
 			<groupId>com.sap.hcp.cf.logging</groupId>
 		  	<artifactId>cf-java-logging-support-logback</artifactId>
 		  	<version>${cf-logging-version}</version>
-		</dependency>		
+		</dependency>	
+		<!-- Olingo -->
+		<dependency>
+			<groupId>org.apache.olingo</groupId>
+			<artifactId>olingo-odata2-jpa-processor-api</artifactId>
+			<version>${apache.olingo.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.eclipse.persistence</groupId>
+					<artifactId>javax.persistence</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.olingo</groupId>
+			<artifactId>olingo-odata2-jpa-processor-core</artifactId>
+			<version>${apache.olingo.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.eclipse.persistence</groupId>
+					<artifactId>javax.persistence</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>	
     </dependencies>
 
 	<build>
