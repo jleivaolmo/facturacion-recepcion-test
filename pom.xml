@@ -6,6 +6,7 @@
 
 	<groupId>com.echevarne.sap.cloud.facturacion.services</groupId>
 	<artifactId>facturacion-recepcion-test</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<description>Motor de facturación - Recepción de solicitudes - Test</description>
 	<name>facturacion-recepcion-test</name>
@@ -67,7 +68,7 @@
 			<plugin>
 				<groupId>org.hibernate.orm.tooling</groupId>
 				<artifactId>hibernate-enhance-maven-plugin</artifactId>
-				<version>${currentHibernateVersion}</version>
+				<version>5.6.5.Final</version>
 				<executions>
 					<execution>
 						<phase>process-classes</phase>
@@ -143,7 +144,7 @@
 	   <repository>
 	     <id>github</id>
 	     <name>GitHub tse-eche Apache Maven Packages</name>
-	     <url>https://maven.pkg.github.com/tse-eche/facturacion-recepcion</url>
+	     <url>https://maven.pkg.github.com/tse-eche/facturacion-recepcion-test</url>
 	   </repository>
 	</distributionManagement> 
 
