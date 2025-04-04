@@ -6,9 +6,6 @@ WORKDIR /facturacion-recepcion-test
 COPY libs/facturacion-core-test.jar /facturacion-recepcion-test/
 COPY libs/facturacion-resources.jar /facturacion-recepcion-test/
 
-#Limpieza de librerias
-RUN mvn clean install -U
-
 # Instalar los archivos en el repositorio local de Maven dentro del contenedor
 RUN mvn install:install-file -Dfile=/facturacion-recepcion-test/facturacion-core-test.jar -DgroupId=com.echevarne.sap.cloud.facturacion.core -DartifactId=facturacion-core-test -Dversion=1.0.0-SNAPSHOT -Dpackaging=jar && mvn install:install-file -Dfile=/facturacion-recepcion-test/facturacion-resources.jar -DgroupId=com.echevarne.sap.cloud.facturacion.resources -DartifactId=facturacion-resources -Dversion=1.9.1-SNAPSHOT -Dpackaging=jar
 
